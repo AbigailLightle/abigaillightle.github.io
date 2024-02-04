@@ -1,6 +1,5 @@
 button {
    background-color:mediumturquoise;
-
 }
 
 .side-nav {
@@ -10,6 +9,7 @@ button {
    position: fixed;
    top:0;
    left:0;
+   font-family: comic sans ms;
  }
  
  .nav-links {
