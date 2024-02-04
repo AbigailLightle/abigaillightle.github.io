@@ -10,7 +10,8 @@ button {
    top:0;
    left:0;
    font-family: comic sans ms;
- }
+   font-size: medium;
+}
  
  .nav-links {
    list-style: none;
