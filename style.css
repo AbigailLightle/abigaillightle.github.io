@@ -2,6 +2,12 @@ button {
    background-color:mediumturquoise;
 }
 
+.nav-header {
+  font-size: large;
+  position: relative;
+  padding-bottom: 5px;
+  padding-left:10px;
+}
 .side-nav {
    width:175px;
    height:100%;
