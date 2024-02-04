@@ -22,6 +22,11 @@ button {
    padding-top: 5px;
  }
  
+ .nav-links li.active{
+   background-color: #77a3da;
+   color: #37bb25;
+ }
+
  .nav-links li a{
    color: #fff;
    text-decoration: none;
