@@ -1,15 +1,34 @@
-@font-face {
-    font-family: "comic sans";
-    src: url(Comfortaa-VariableFont_wght.ttf) format(truetype);
-    font-weight: normal;
-    font-style: bold;
-    font-display: swap;
-    color: rgb(58, 12, 58)
+/* Basic reset to remove default padding/margins */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-title {
-    font-family: "arial", sans-serif;
-    color: rgb(114, 21, 114);
-    font-style: bold;
+/* Style the navbar container */
+.navbar {
+  background-color: #333;
+}
 
+/* Align list items horizontally using Flexbox */
+.navbar ul {
+  list-style-type: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Makes the list items horizontal */
+  justify-content: center; /* Centers the menu; use 'flex-start' for left-align */
+}
+
+/* Style individual links */
+.navbar li a {
+  display: block; /* Ensures the whole area is clickable */
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none; /* Removes underline */
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for interactivity */
+.navbar li a:hover {
+  background-color: #555;
 }
