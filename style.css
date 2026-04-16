@@ -4,7 +4,8 @@ ul {
   margin-left: 12.5%;
   margin-right: 12.5%;
   padding: 0;
-  background-color: #554577;
+  background-color: #8c75bc;
+  width: 100%;
 }
 
 li {
@@ -16,4 +17,11 @@ a {
   text-decoration: none;
   padding: 10px;
   display: block;
+}
+
+body {
+  margin: 0; 
+  padding: 0;
+  background-color: #554577;
+  width: 100%;
 }
