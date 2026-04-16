@@ -1,34 +1,19 @@
-/* Basic reset to remove default padding/margins */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-/* Style the navbar container */
-.navbar {
-  background-color: #333;
-}
-
-/* Align list items horizontally using Flexbox */
-.navbar ul {
-  list-style-type: none; /* Removes bullet points */
-  margin: 0;
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 5%;
+  margin-right: 5%;
   padding: 0;
-  display: flex; /* Makes the list items horizontal */
-  justify-content: center; /* Centers the menu; use 'flex-start' for left-align */
+  background-color: #554577;
 }
 
-/* Style individual links */
-.navbar li a {
-  display: block; /* Ensures the whole area is clickable */
+li {
+  margin: 0 10px;
+}
+
+a {
   color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none; /* Removes underline */
-  transition: background-color 0.3s;
-}
-
-/* Hover effect for interactivity */
-.navbar li a:hover {
-  background-color: #555;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
 }
