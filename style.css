@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'aloevera';
+  src: url('Aloevera-OVoWO.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 ul {
   display: flex;
   justify-content: space-evenly;
@@ -5,6 +13,7 @@ ul {
   padding: 0;
   background-color: #8c75bc;
   width: 100%;
+  font-family: 'aloevera', sans-serif;
 }
 
 li {
@@ -12,14 +21,38 @@ li {
 }
 
 a {
-  color: white;
+  color: #332a48;
   text-decoration: none;
   padding: 10px 15px;
   display: block;
+  font-size: 20px;
 }
 
 body {
   margin: 0;
   padding: 0;
   background-color: #554577;
+}
+
+text {
+  color: #332a48;
+  font-family: 'aloevera', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: aloevera, sans-serif;
+}
+
+h1 {
+  font-family: aloevera, sans-serif;
+}
+
+.active a {
+font-weight: bold;
+text-decoration: underline;
 }
